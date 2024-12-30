@@ -7,6 +7,7 @@ FUNCTION zcustomer_read.
 *"     REFERENCE(ES_CUSTOMER) TYPE ZCUSTOMER_S
 *"  EXCEPTIONS
 *"     ENTRY_NOT_FOUND
+*" This is a comment to see how git works with VScode.dev
 *"----------------------------------------------------------------------
   SELECT SINGLE * FROM zcustomer
     WHERE customer_id = @iv_customer_id
